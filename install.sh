@@ -7,5 +7,5 @@ yay -Sua
 #yay -Syyu
 #yay -Yc # Clean
 yay -S darktable
-
+yay -S google-cloud-cli
 yay -S blender-bin
