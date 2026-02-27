@@ -1,11 +1,27 @@
+#!/bin/bash
 
-sudo pacman -Syyu
-sudo pacman -S krita
-sudo pacman -S code
+# --- 1. Update System Repositories ---
+echo "Updating system..."
+#yay -Syu --noconfirm
+omarchy-update
 
-yay -Sua
-#yay -Syyu
-#yay -Yc # Clean
-yay -S darktable
-yay -S google-cloud-cli
-yay -S blender-bin
+# --- 2. Define Package Groups ---
+# Official Repos & AUR Packages mixed
+APPS=(
+    "krita"
+    "code"
+    "veracrypt"
+    "darktable"
+    "google-cloud-cli"
+    "blender-bin"
+)
+
+# --- 3. Install Packages ---
+echo "Installing custom packages..."
+yay -S --needed --noconfirm "${APPS[@]}"
+
+# --- 4. Post-Install Cleanup ---
+echo "Cleaning up orphans..."
+yay -Yc --noconfirm
+
+echo "Done! Your Omarchy environment is ready."
