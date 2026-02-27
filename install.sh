@@ -9,7 +9,7 @@ omarchy-update
 # Official Repos & AUR Packages mixed
 APPS=(
     "krita"
-    "code"
+    "visual-studio-code-bin"
     "veracrypt"
     "darktable"
     "google-cloud-cli"
