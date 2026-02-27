@@ -15,6 +15,8 @@ APPS=(
     "google-cloud-cli"
     "blender-bin"
     "discord"
+    "nano"
+    "keepassxc"
 )
 
 # --- 3. Install Packages ---
