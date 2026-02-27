@@ -14,6 +14,7 @@ APPS=(
     "darktable"
     "google-cloud-cli"
     "blender-bin"
+    "discord"
 )
 
 # --- 3. Install Packages ---
