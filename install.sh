@@ -17,6 +17,7 @@ APPS=(
     "discord"
     "nano"
     "keepassxc"
+    "auto-editor"
 )
 
 # --- 3. Install Packages ---
