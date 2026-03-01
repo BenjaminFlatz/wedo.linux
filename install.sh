@@ -18,6 +18,7 @@ APPS=(
     "nano"
     "keepassxc"
     "auto-editor"
+    "balena-etcher"
 )
 
 # --- 3. Install Packages ---
