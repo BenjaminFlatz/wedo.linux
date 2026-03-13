@@ -19,6 +19,7 @@ APPS=(
     "keepassxc"
     "auto-editor"
     "impressor"
+    "opentabletdriver"
 )
 
 # --- 3. Install Packages ---
