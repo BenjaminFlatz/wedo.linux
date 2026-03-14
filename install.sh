@@ -19,7 +19,7 @@ APPS=(
     "keepassxc"
     "auto-editor"
     "impressor"
-    "opentabletdriver"
+    "hyprmon-bin"
 )
 
 # --- 3. Install Packages ---
