@@ -20,6 +20,7 @@ APPS=(
     "auto-editor"
     "impressor"
     "hyprmon-bin"
+    "masterpdfeditor"
 )
 
 # --- 3. Install Packages ---
