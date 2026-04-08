@@ -21,6 +21,7 @@ APPS=(
     "impressor"
     "hyprmon-bin"
     "masterpdfeditor"
+    "orthanc"
 )
 
 # --- 3. Install Packages ---
