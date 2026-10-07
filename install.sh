@@ -22,6 +22,7 @@ APPS=(
     "hyprmon-bin"
     "masterpdfeditor"
     "orthanc"
+    "stripe-cli-bin"
 )
 
 # --- 3. Install Packages ---
