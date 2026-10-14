@@ -23,6 +23,8 @@ APPS=(
     "masterpdfeditor"
     "orthanc"
     "stripe-cli-bin"
+    "element-desktop"
+    "mixxx"
 )
 
 # --- 3. Install Packages ---
