@@ -2,11 +2,9 @@
 
 # --- 1. Update System Repositories ---
 echo "Updating system..."
-#yay -Syu --noconfirm
 omarchy-update
 
 # --- 2. Define Package Groups ---
-# Official Repos & AUR Packages mixed
 APPS=(
     "krita"
     "visual-studio-code-bin"
@@ -25,14 +23,15 @@ APPS=(
     "stripe-cli-bin"
     "element-desktop"
     "mixxx"
+    "testdisk"
 )
 
-# --- 3. Install Packages ---
+# --- 3. Install Packages (Interactive PKGBUILD Review Enabled) ---
 echo "Installing custom packages..."
-yay -S --needed --noconfirm "${APPS[@]}"
+yay -S --needed "${APPS[@]}"
 
-# --- 4. Post-Install Cleanup ---
-echo "Cleaning up orphans..."
-yay -Yc --noconfirm
+# --- 4. Post-Install Cleanup (Manual Review) ---
+echo "Checking for orphans..."
+yay -Yc
 
 echo "Done! Your Omarchy environment is ready."
