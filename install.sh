@@ -24,6 +24,7 @@ APPS=(
     "element-desktop"
     "mixxx"
     "testdisk"
+    "uv"
 )
 
 # --- 3. Install Packages (Interactive PKGBUILD Review Enabled) ---
