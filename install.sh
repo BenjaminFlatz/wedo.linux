@@ -25,6 +25,7 @@ APPS=(
     "mixxx"
     "testdisk"
     "uv"
+    "audacity"
 )
 
 # --- 3. Install Packages (Interactive PKGBUILD Review Enabled) ---
