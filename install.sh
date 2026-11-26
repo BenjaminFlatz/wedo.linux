@@ -26,6 +26,7 @@ APPS=(
     "testdisk"
     "uv"
     "audacity"
+    "google-chrome"
 )
 
 # --- 3. Install Packages (Interactive PKGBUILD Review Enabled) ---
